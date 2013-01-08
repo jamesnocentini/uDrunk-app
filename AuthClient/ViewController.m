@@ -47,7 +47,7 @@
                                       
                                       self.measures = [responseObject objectForKey:@"measures"];
                                       
-                                      NSLog(@"%@", self.measures);
+                                      NSLog(@"This is the measure json:%@", self.measures);
                                       
                                       NSMutableArray *readings = [NSMutableArray array];
                                       for (NSDictionary *user in self.measures) {
