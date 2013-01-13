@@ -11,6 +11,7 @@
 #import "LoginViewController.h"
 #import "AuthAPIClient.h"
 #import "SVProgressHUD.h"
+#import "NewViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *messageTextView;
@@ -20,6 +21,9 @@
 @implementation ViewController
 
 @synthesize measures = _measures;
+
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -80,10 +84,18 @@
 
 - (BOOL)ensureLoggedIn {
     if (![self.credentialStore isLoggedIn]) {
-        [LoginViewController presentModallyFromViewController:self];
+        [LoginViewController presentToLoginViewController:self];
         return NO;
     }
     return YES;
+}
+
+- (IBAction)newMeasure:(id)sender {
+    if (![self ensureLoggedIn]) {
+        return;
+    }
+    [NewViewController presentToNewViewController:self];
+    
 }
 
 

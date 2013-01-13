@@ -12,6 +12,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *usernameField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 
-+ (void)presentModallyFromViewController:(UIViewController *)viewController;
++ (void)presentToLoginViewController:(UIViewController *)viewController;
 
 @end

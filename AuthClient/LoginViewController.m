@@ -17,7 +17,7 @@
 
 @implementation LoginViewController
 
-+ (void)presentModallyFromViewController:(UIViewController *)viewController {
++ (void)presentToLoginViewController:(UIViewController *)viewController {
     LoginViewController *loginViewController = [[LoginViewController alloc] init];
     UINavigationController *navController = [[UINavigationController alloc]
                                              initWithRootViewController:loginViewController];

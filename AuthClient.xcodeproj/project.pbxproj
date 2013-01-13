@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0D4601A19CD54E5CB8EB9285 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A91A4801D3F44AE28B106649 /* libPods.a */; };
 		1A263B791693AF9C008247F8 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A263B781693AF9C008247F8 /* LoginStoryboard.storyboard */; };
+		1A953DAB16A2C0CE00B814C6 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A953DAA16A2C0CD00B814C6 /* NewViewController.m */; };
+		1A953DAE16A2C76900B814C6 /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A953DAD16A2C76900B814C6 /* NewViewController.xib */; };
 		96C6FA4D756E4566B7D6A09D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD5066F15940499A6E24C4 /* libPods.a */; };
 		B521D674164708FB00ECFFC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B521D673164708FB00ECFFC3 /* UIKit.framework */; };
 		B521D676164708FB00ECFFC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B521D675164708FB00ECFFC3 /* Foundation.framework */; };
@@ -29,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		1A263B781693AF9C008247F8 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		1A953DA916A2C0CD00B814C6 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		1A953DAA16A2C0CD00B814C6 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		1A953DAD16A2C76900B814C6 /* NewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
 		5463A383CDA5433087C03631 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A91A4801D3F44AE28B106649 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B521D66F164708FB00ECFFC3 /* AuthClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +121,9 @@
 				B521D6A41647100700ECFFC3 /* LoginViewController.h */,
 				B521D6A51647100700ECFFC3 /* LoginViewController.m */,
 				B521D6A61647100700ECFFC3 /* LoginViewController.xib */,
+				1A953DA916A2C0CD00B814C6 /* NewViewController.h */,
+				1A953DAA16A2C0CD00B814C6 /* NewViewController.m */,
+				1A953DAD16A2C76900B814C6 /* NewViewController.xib */,
 				1A263B781693AF9C008247F8 /* LoginStoryboard.storyboard */,
 				B521D67A164708FB00ECFFC3 /* Supporting Files */,
 				B521D69D16470AE900ECFFC3 /* CredentialStore.h */,
@@ -200,6 +208,7 @@
 				B521D690164708FC00ECFFC3 /* ViewController.xib in Resources */,
 				B521D6A81647100700ECFFC3 /* LoginViewController.xib in Resources */,
 				1A263B791693AF9C008247F8 /* LoginStoryboard.storyboard in Resources */,
+				1A953DAE16A2C76900B814C6 /* NewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +256,7 @@
 				B521D69F16470AE900ECFFC3 /* CredentialStore.m in Sources */,
 				B521D6A71647100700ECFFC3 /* LoginViewController.m in Sources */,
 				B521D6B5164713BD00ECFFC3 /* AuthAPIClient.m in Sources */,
+				1A953DAB16A2C0CE00B814C6 /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

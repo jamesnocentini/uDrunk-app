@@ -9,7 +9,7 @@
 #import "AuthAPIClient.h"
 #import "CredentialStore.h"
 
-#define BASE_URL @"http://3trk.localtunnel.com"
+#define BASE_URL @"http://4i8m.localtunnel.com"
 
 @implementation AuthAPIClient
 
