@@ -10,6 +10,8 @@
 
 @interface NewViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *measureField;
+
 + (void)presentToNewViewController:(UIViewController *)viewController;
 
 

@@ -8,6 +8,9 @@
 
 #import "NewViewController.h"
 #import "ViewController.h"
+#import "SVProgresshud.h"
+#import "AuthAPIClient.h"
+#import "CredentialStore.h"
 
 @interface NewViewController ()
 
@@ -41,6 +44,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)send:(id)sender {
+    
+    id params = @{@"reading" : self.measureField.text
+    
+    
+    };
+    
+    [[AuthAPIClient sharedClient] postPath:@"/measure/new.json" parameters:params
+                                   success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                                       NSLog(@"Yeah:%@", responseObject);
+                                   }
+                                   failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                       
+                                   }];
+    NSLog(@"Params are:%@", params);
+}
 
 - (void)cancel:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
