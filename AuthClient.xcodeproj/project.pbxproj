@@ -79,6 +79,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ABB040816A8D3AB00DA64E4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B521D6B3164713BD00ECFFC3 /* AuthAPIClient.h */,
+				B521D6B4164713BD00ECFFC3 /* AuthAPIClient.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		1ABB040A16A8D3CB00DA64E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A953DAD16A2C76900B814C6 /* NewViewController.xib */,
+				1A953DA916A2C0CD00B814C6 /* NewViewController.h */,
+				1A953DAA16A2C0CD00B814C6 /* NewViewController.m */,
+				B521D6A41647100700ECFFC3 /* LoginViewController.h */,
+				B521D6A51647100700ECFFC3 /* LoginViewController.m */,
+				B521D6A61647100700ECFFC3 /* LoginViewController.xib */,
+				B521D68B164708FC00ECFFC3 /* ViewController.h */,
+				B521D68C164708FC00ECFFC3 /* ViewController.m */,
+				B521D68E164708FC00ECFFC3 /* ViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		B521D664164708FB00ECFFC3 = {
 			isa = PBXGroup;
 			children = (
@@ -115,21 +140,12 @@
 			children = (
 				B521D682164708FB00ECFFC3 /* AppDelegate.h */,
 				B521D683164708FB00ECFFC3 /* AppDelegate.m */,
-				B521D68B164708FC00ECFFC3 /* ViewController.h */,
-				B521D68C164708FC00ECFFC3 /* ViewController.m */,
-				B521D68E164708FC00ECFFC3 /* ViewController.xib */,
-				B521D6A41647100700ECFFC3 /* LoginViewController.h */,
-				B521D6A51647100700ECFFC3 /* LoginViewController.m */,
-				B521D6A61647100700ECFFC3 /* LoginViewController.xib */,
-				1A953DA916A2C0CD00B814C6 /* NewViewController.h */,
-				1A953DAA16A2C0CD00B814C6 /* NewViewController.m */,
-				1A953DAD16A2C76900B814C6 /* NewViewController.xib */,
+				1ABB040816A8D3AB00DA64E4 /* API */,
+				1ABB040A16A8D3CB00DA64E4 /* Controllers */,
 				1A263B781693AF9C008247F8 /* LoginStoryboard.storyboard */,
 				B521D67A164708FB00ECFFC3 /* Supporting Files */,
 				B521D69D16470AE900ECFFC3 /* CredentialStore.h */,
 				B521D69E16470AE900ECFFC3 /* CredentialStore.m */,
-				B521D6B3164713BD00ECFFC3 /* AuthAPIClient.h */,
-				B521D6B4164713BD00ECFFC3 /* AuthAPIClient.m */,
 			);
 			path = AuthClient;
 			sourceTree = "<group>";
