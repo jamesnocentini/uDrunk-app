@@ -9,7 +9,7 @@
 #import "AuthAPIClient.h"
 #import "CredentialStore.h"
 
-#define BASE_URL @"http://localhost:3000"
+#define BASE_URL @"http://udrunk.herokuapp.com/"
 
 @implementation AuthAPIClient
 
